@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/styles.css"],"names":[],"mappings":"AAAA;IACI,6BAA6B;IAC7B,sBAAsB;IACtB,YAAY;IACZ,aAAa;IACb,uCAAuC;AAC3C","file":"styles.css","sourcesContent":[".wtd-form form{\n    border-top: 2px solid #f48706;\n    background-color: #fff;\n    margin: auto;\n    padding: 40px;\n    box-shadow: 0 2px 10px rgba(0,0,0,.075);\n}\n"],"sourceRoot":"webpack:///"}
