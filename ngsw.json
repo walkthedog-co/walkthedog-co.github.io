@@ -1,0 +1,147 @@
+{
+  "configVersion": 1,
+  "timestamp": 1628107294454,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/5-es2015.fe62169408b46bd5db9f.js",
+        "/5-es5.fe62169408b46bd5db9f.js",
+        "/index.html",
+        "/main-es2015.7d14f67be6f4ed08934c.js",
+        "/main-es5.7d14f67be6f4ed08934c.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.c131ee7c37c2ac42bd19.js",
+        "/polyfills-es5.3102ac5629533f91b523.js",
+        "/runtime-es2015.bcb33490b75e75f44c18.js",
+        "/runtime-es5.bcb33490b75e75f44c18.js",
+        "/styles.ac69192e6d2c70b34386.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/bootstrap/css/bootstrap.min.css",
+        "/assets/bootstrap/js/bootstrap.min.js",
+        "/assets/css/Login-Form-Clean.css",
+        "/assets/css/smoothproducts.css",
+        "/assets/fonts/Simple-Line-Icons.eot",
+        "/assets/fonts/Simple-Line-Icons.svg",
+        "/assets/fonts/Simple-Line-Icons.ttf",
+        "/assets/fonts/Simple-Line-Icons.woff",
+        "/assets/fonts/Simple-Line-Icons.woff2",
+        "/assets/fonts/ionicons.eot",
+        "/assets/fonts/ionicons.min.css",
+        "/assets/fonts/ionicons.svg",
+        "/assets/fonts/ionicons.ttf",
+        "/assets/fonts/ionicons.woff",
+        "/assets/fonts/letsplay.ttf",
+        "/assets/fonts/simple-line-icons.min.css",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/Davi.png",
+        "/assets/img/Nequi.png",
+        "/assets/img/davi.jpg",
+        "/assets/img/facebook.png",
+        "/assets/img/favicon.png",
+        "/assets/img/instagram.jpg",
+        "/assets/img/logo-brand.png",
+        "/assets/img/logo.png",
+        "/assets/img/nequi.jpg",
+        "/assets/js/current-day.js",
+        "/assets/js/jquery.min.js",
+        "/assets/js/smoothproducts.min.js",
+        "/assets/js/theme.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.fe62169408b46bd5db9f.js": "623b6c6d883342bc20986588bc8c13fe81c05dae",
+    "/5-es5.fe62169408b46bd5db9f.js": "734e4f12614fb86dd8c03a8fe1c27adc9405e478",
+    "/assets/bootstrap/css/bootstrap.min.css": "5d72f61d1910c266aa6db89af5f3996393a44bbd",
+    "/assets/bootstrap/js/bootstrap.min.js": "386ea8bd17f21149c4e3a2303665fe6398e4e7d0",
+    "/assets/css/Login-Form-Clean.css": "990c1210c0635d15be0613c93d333841847d52bc",
+    "/assets/css/smoothproducts.css": "3c7567e74385bc0f33ad27d78a8e28d3e7536020",
+    "/assets/fonts/Simple-Line-Icons.eot": "ac66184202b5478e0b60305e19dc6de385b84bb5",
+    "/assets/fonts/Simple-Line-Icons.svg": "9bf20e73670afaece53811c524b803369e76e99e",
+    "/assets/fonts/Simple-Line-Icons.ttf": "9ffb81a5a11112e292f2cc323e98486bad597599",
+    "/assets/fonts/Simple-Line-Icons.woff": "ddd21189de779f161634ddf307a0e1ebe30318ca",
+    "/assets/fonts/Simple-Line-Icons.woff2": "5da603104d4d6e362824ec9e7db32eb2d617949a",
+    "/assets/fonts/ionicons.eot": "61532e89e212f8dd16ba31f3ebcf35c0a7334035",
+    "/assets/fonts/ionicons.min.css": "f0459300e39155df7aa5e94b3bdb8c8594f49a60",
+    "/assets/fonts/ionicons.svg": "3f1ca28fcb042d2bcc6ee6a4e3dd817e5132eeea",
+    "/assets/fonts/ionicons.ttf": "1b0a0de084905946a20300ca8c354865dec46764",
+    "/assets/fonts/ionicons.woff": "e46819e863a46751d622c1190c4e8a83ebc20612",
+    "/assets/fonts/letsplay.ttf": "548f7bc4713e3e8d89e573969236329c0eeb7a5e",
+    "/assets/fonts/simple-line-icons.min.css": "2d2240cbae8d6e49c569f57370787fd8441d4383",
+    "/assets/icons/icon-128x128.png": "47c890d57ac7c0e2415c1cad4f81b27114094725",
+    "/assets/icons/icon-144x144.png": "8734c94a79c09692cad405d9ed5066e73dccc928",
+    "/assets/icons/icon-152x152.png": "7359600dea2ba45c5eceedc6ab48a1b5c20fe59e",
+    "/assets/icons/icon-192x192.png": "ef2ba4642724996e884544c86068ac0126c5f453",
+    "/assets/icons/icon-384x384.png": "1b568036e0995016d0d5545cb2d3a3cd6a2e8f87",
+    "/assets/icons/icon-512x512.png": "626cb0bf01014d879b274e10092e90660e6aa107",
+    "/assets/icons/icon-72x72.png": "7a1437fd5f6bd0711de78d75cabc8e26988279f2",
+    "/assets/icons/icon-96x96.png": "390781e4d85297771a33dcc9c1d2e5969de0a99c",
+    "/assets/img/Davi.png": "5e6d366124c64f9fcae6b8916fee85d5b2be37ce",
+    "/assets/img/Nequi.png": "04b54f8ec5970c47a994c181b9138054346fefc3",
+    "/assets/img/davi.jpg": "5cef0cf4988d1027b1894c8984d18c0670154162",
+    "/assets/img/facebook.png": "4e8ba40e3a6f2dc4f6f80bba738addbd1101756a",
+    "/assets/img/favicon.png": "718a62754fec7811fee798bd49cb9be8fd45b17d",
+    "/assets/img/instagram.jpg": "744a0bae976275427fa66479a8f9d398590cce0b",
+    "/assets/img/logo-brand.png": "8e88e7d07621324d07c895e9a11339db0067d2b2",
+    "/assets/img/logo.png": "2460412b449be8b85c8e8b49fe8131c3fce1a2c2",
+    "/assets/img/nequi.jpg": "b3fc919248c877d3f95da6e1912d2b651f1022e3",
+    "/assets/js/current-day.js": "7a611547e9602e42540c0c4168dfd2d3056934a7",
+    "/assets/js/jquery.min.js": "d2cc8d43ce1c854b1172e42b1209502ad563db83",
+    "/assets/js/smoothproducts.min.js": "43172e575f12b00f3dc7c4412640e54140d26ba0",
+    "/assets/js/theme.js": "c69119df0f9fc28fbab91c0a2fc8a5969ed77ee6",
+    "/index.html": "27450ff1172422019aa690a7e3dd370037b5dfd5",
+    "/main-es2015.7d14f67be6f4ed08934c.js": "636e0f9a7feeee3732899fad6775bf9962602e34",
+    "/main-es5.7d14f67be6f4ed08934c.js": "fc5de199392e52006ca0758fc081632628ad3b64",
+    "/manifest.webmanifest": "7c32f3e503e848d35debead73e086fb2c6aff6a7",
+    "/polyfills-es2015.c131ee7c37c2ac42bd19.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
+    "/polyfills-es5.3102ac5629533f91b523.js": "214f4b46e6da9fadd1fae2439f1791ee1ad0f563",
+    "/runtime-es2015.bcb33490b75e75f44c18.js": "a6a745159f0466f264d6b4794f1a1cc78fb5580b",
+    "/runtime-es5.bcb33490b75e75f44c18.js": "4a5f82a909470973252ac909816925bb525c528d",
+    "/styles.ac69192e6d2c70b34386.css": "13028e59526f03128ab4583445998bb679205c93"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
