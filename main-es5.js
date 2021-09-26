@@ -4972,6 +4972,17 @@
         _createClass(ManageWalkersComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {}
+        }, {
+          key: "walkerDetails",
+          value: function walkerDetails(walkerId) {
+            this.walkerDetailed = this.walkers.find(function (w) {
+              return w.id == walkerId;
+            });
+            document.getElementById('modalTitle').innerHTML = "Detalles del paseador";
+            setTimeout(function () {
+              document.getElementById('modalContent').innerHTML = document.getElementById('walkerDetailed').innerHTML;
+            }, 30);
+          }
         }]);
 
         return ManageWalkersComponent;
@@ -13580,10 +13591,14 @@
 
             if (this.form.valid) {
               this.dogsS.insert(this.form.value).subscribe(function (res) {
-                if (res.ok) {
+                if (res.update.ok) {
                   _this51.alert.showAlert("success", "Listo!", "Se ha agregado un perrito.", 4);
 
-                  _this51.as.router.navigate(['dashboard/list-pets']);
+                  _this51.as.router.navigate(['dashboard/pets']);
+                } else {
+                  _this51.alert.showAlert("error", "Error", "Hubo un error en el servidor, intentalo más tarde.", 4);
+
+                  _this51.as.router.navigate(['dashboard/pets']);
                 }
               });
             } else {

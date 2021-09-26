@@ -2448,6 +2448,13 @@ class ManageWalkersComponent {
     }
     ngOnInit() {
     }
+    walkerDetails(walkerId) {
+        this.walkerDetailed = this.walkers.find(w => w.id == walkerId);
+        document.getElementById('modalTitle').innerHTML = "Detalles del paseador";
+        setTimeout(() => {
+            document.getElementById('modalContent').innerHTML = document.getElementById('walkerDetailed').innerHTML;
+        }, 30);
+    }
 }
 ManageWalkersComponent.ɵfac = function ManageWalkersComponent_Factory(t) { return new (t || ManageWalkersComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_users_service__WEBPACK_IMPORTED_MODULE_1__["UsersService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"])); };
 ManageWalkersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ManageWalkersComponent, selectors: [["app-manage-walkers"]], decls: 8, vars: 4, consts: [["class", "row", 4, "ngIf"], ["class", "table-responsive", 4, "ngIf"], [4, "ngIf"], ["hidden", ""], ["id", "walkerDetailed"], [1, "row"], [1, "form-group", "col-lg-10"], ["placeholder", "Correo del usuario", "type", "text", 1, "form-control"], [1, "form-group", "col-lg-2"], [1, "btn", "btn-dark", "btn-block"], [1, "table-responsive"], ["class", "table table-bordered", 4, "ngIf"], [1, "table", "table-bordered"], [4, "ngFor", "ngForOf"], ["type", "button", "data-toggle", "modal", "data-target", "#modal", 1, "btn", "btn-sm", "btn-secondary", 3, "click"], [1, "col-md-6"], [1, "card"], [1, "card-body"], [2, "width", "100%", 3, "src"], [1, "card-header"]], template: function ManageWalkersComponent_Template(rf, ctx) { if (rf & 1) {
@@ -6966,9 +6973,13 @@ class AddPetComponent {
     tryInsertDog() {
         if (this.form.valid) {
             this.dogsS.insert(this.form.value).subscribe(res => {
-                if (res.ok) {
+                if (res.update.ok) {
                     this.alert.showAlert("success", "Listo!", "Se ha agregado un perrito.", 4);
-                    this.as.router.navigate(['dashboard/list-pets']);
+                    this.as.router.navigate(['dashboard/pets']);
+                }
+                else {
+                    this.alert.showAlert("error", "Error", "Hubo un error en el servidor, intentalo más tarde.", 4);
+                    this.as.router.navigate(['dashboard/pets']);
                 }
             });
         }
