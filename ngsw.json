@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1628552378947,
+  "timestamp": 1632624010390,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,17 +11,19 @@
         "ignoreVary": true
       },
       "urls": [
-        "/5-es2015.fe62169408b46bd5db9f.js",
-        "/5-es5.fe62169408b46bd5db9f.js",
+        "/firebase-auth-es2015.js",
+        "/firebase-auth-es5.js",
         "/index.html",
-        "/main-es2015.9418a1bdc417a0bd8d65.js",
-        "/main-es5.9418a1bdc417a0bd8d65.js",
+        "/main-es2015.js",
+        "/main-es5.js",
         "/manifest.webmanifest",
-        "/polyfills-es2015.c131ee7c37c2ac42bd19.js",
-        "/polyfills-es5.3102ac5629533f91b523.js",
-        "/runtime-es2015.bcb33490b75e75f44c18.js",
-        "/runtime-es5.bcb33490b75e75f44c18.js",
-        "/styles.ac69192e6d2c70b34386.css"
+        "/polyfills-es2015.js",
+        "/polyfills-es5.js",
+        "/runtime-es2015.js",
+        "/runtime-es5.js",
+        "/styles.css",
+        "/vendor-es2015.js",
+        "/vendor-es5.js"
       ],
       "patterns": []
     },
@@ -76,8 +78,6 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/5-es2015.fe62169408b46bd5db9f.js": "623b6c6d883342bc20986588bc8c13fe81c05dae",
-    "/5-es5.fe62169408b46bd5db9f.js": "734e4f12614fb86dd8c03a8fe1c27adc9405e478",
     "/assets/bootstrap/css/bootstrap.min.css": "5d72f61d1910c266aa6db89af5f3996393a44bbd",
     "/assets/bootstrap/js/bootstrap.min.js": "386ea8bd17f21149c4e3a2303665fe6398e4e7d0",
     "/assets/css/Login-Form-Clean.css": "990c1210c0635d15be0613c93d333841847d52bc",
@@ -115,15 +115,19 @@
     "/assets/js/jquery.min.js": "d2cc8d43ce1c854b1172e42b1209502ad563db83",
     "/assets/js/smoothproducts.min.js": "43172e575f12b00f3dc7c4412640e54140d26ba0",
     "/assets/js/theme.js": "c69119df0f9fc28fbab91c0a2fc8a5969ed77ee6",
-    "/index.html": "fec4348ae7d1a64153615b4efc8b2d239d19d8d1",
-    "/main-es2015.9418a1bdc417a0bd8d65.js": "8d49da449b567b8f9c07783d2caf9126f9c0d98d",
-    "/main-es5.9418a1bdc417a0bd8d65.js": "640325591f9b85a0fe13af7d823ef4dbf7f4fc35",
+    "/firebase-auth-es2015.js": "007fc7e5e335d40279e59af79cc7de34cd57bba7",
+    "/firebase-auth-es5.js": "b23035fabe39e61eea8ab4230a164ba5a96ea93c",
+    "/index.html": "f7ecc448ab09abf93be82645a6e95d0db7b0daa5",
+    "/main-es2015.js": "947c82959aa9e18e0481448d16189bef25a7bfe0",
+    "/main-es5.js": "7834dae9983850c2c2746c74e3b8e6b9ea792adc",
     "/manifest.webmanifest": "7c32f3e503e848d35debead73e086fb2c6aff6a7",
-    "/polyfills-es2015.c131ee7c37c2ac42bd19.js": "65c537467564ee0ba776b629f71ed3413413a7cb",
-    "/polyfills-es5.3102ac5629533f91b523.js": "214f4b46e6da9fadd1fae2439f1791ee1ad0f563",
-    "/runtime-es2015.bcb33490b75e75f44c18.js": "a6a745159f0466f264d6b4794f1a1cc78fb5580b",
-    "/runtime-es5.bcb33490b75e75f44c18.js": "4a5f82a909470973252ac909816925bb525c528d",
-    "/styles.ac69192e6d2c70b34386.css": "13028e59526f03128ab4583445998bb679205c93"
+    "/polyfills-es2015.js": "0b39f6ccf93e0177aedf4fc68d8ca3602f970a6f",
+    "/polyfills-es5.js": "a516bda27a36e809e0b3af7586e10b7686054c63",
+    "/runtime-es2015.js": "03517606df20a1201b04bce201eaac91d39c23e4",
+    "/runtime-es5.js": "36ae147d9209d51046cff169e65eea1ed741744e",
+    "/styles.css": "a0347909cfd9a51ea839ca0cc289901a2e41bfe0",
+    "/vendor-es2015.js": "fd475370cdad26a145856f16b3940d69abed5da4",
+    "/vendor-es5.js": "bbc762cae92cc0d9c9b1089be6aa1149a2c3e407"
   },
   "navigationUrls": [
     {
